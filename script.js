@@ -47,7 +47,6 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 });
-
 // ============== SCROLL REVEAL ANIMATION ================
 const sr = ScrollReveal({
   distance: "200px",
@@ -60,20 +59,4 @@ sr.reveal(".home-container h3", { origin: "top" });
 sr.reveal(".home-container h1", { origin: "left" });
 sr.reveal(".home-container p", { origin: "left" });
 sr.reveal(".home-container .right", { origin: "right" });
-sr.reveal(".social-icons-container", { origin: "right" });
-sr.reveal(".about-container .title", { origin: "right" });
-sr.reveal(".about-container h3", { origin: "bottom" });
-sr.reveal(".about-container p", { origin: "bottom" });
-sr.reveal(".about-container .left", { origin: "left" });
-sr.reveal(".about-container .right", { origin: "right" });
-sr.reveal(".services .title", { origin: "top" });
-sr.reveal(".services .content-1", { origin: "left" });
-sr.reveal(".services .content-2", { origin: "right" });
-sr.reveal(".portfolio-container", { origin: "bottom" });
-sr.reveal(".portfolio .title", { origin: "top" });
-sr.reveal(".portfolio-buttons", { origin: "left" });
-sr.reveal(".testimonial .title", { origin: "right" });
-sr.reveal(".testimonial .testimonial-container", { origin: "left" });
-sr.reveal(".contact .title", { origin: "top" });
-sr.reveal(".contact .row .box", { origin: "right" });
-sr.reveal(".contact .row .contact-form", { origin: "left" });
+
